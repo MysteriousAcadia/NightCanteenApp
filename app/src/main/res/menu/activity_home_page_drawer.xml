@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Night Mess Menus"></item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/a_mess_button"
+            android:title="A mess" />
+        <item
+            android:id="@+id/c_mess_button"
+            android:title="C mess" />
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/d_mess_button"
+            android:title="D mess" />
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
